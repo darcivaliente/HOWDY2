@@ -77,7 +77,7 @@ export default function Chat() {
           <div className="flex flex-col space-y-4 p-7 sm:p-10 bg-[#F1C27D] text-[#4F4F4F]">
             <Image
               src="app/950079.png"
-              alt="sample-image"
+              alt="HOWDY"
               width={40}
               height={40}
               className="h-20 w-20"
