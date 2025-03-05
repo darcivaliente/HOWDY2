@@ -59,7 +59,7 @@ export default function Chat() {
                   <UserIcon />
                 ) : (
                   <Image
-                    src=".\cowgirl.png"
+                    src="./cowgirl.png"
                     alt="HOWDY"
                     width={36}
                     height={36}
@@ -76,7 +76,7 @@ export default function Chat() {
         <div className="border-[#E57C24] sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
           <div className="flex flex-col space-y-4 p-7 sm:p-10 bg-[#F1C27D] text-[#4F4F4F]">
             <Image
-              src="howdy.png"
+              src="./cowgirl.png"
               alt="HOWDY"
               width={40}
               height={40}
