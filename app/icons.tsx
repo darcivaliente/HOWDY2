@@ -70,7 +70,7 @@ export const UserIcon = () => {
       width={20}
       height={20}
       viewBox="0 0 24 24"
-      fill="none"
+      fill="white"
       stroke="currentColor"
       stroke-width="2"
       stroke-linecap="round"
