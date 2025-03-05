@@ -1,7 +1,7 @@
 export const VercelIcon = () => {
   return (
     <img
-      src="/app/api/chat/950079.png"
+      src="/app/950079.png"
       alt="Vercel Icon"
       width={22}
       height={22}
@@ -12,7 +12,7 @@ export const VercelIcon = () => {
 export const GithubIcon = () => {
   return (
     <img
-      src="/app/api/chat/950079.png"
+      src="/app/950079.png"
       alt="Github Icon"
       width={20}
       height={20}
@@ -23,7 +23,7 @@ export const GithubIcon = () => {
 export const LoadingCircle = () => {
   return (
     <img
-      src="/app/api/chat/950079.png"
+      src="/app/950079.png"
       alt="Loading Icon"
       className="h-4 w-4 animate-spin"
       width={24}
@@ -35,7 +35,7 @@ export const LoadingCircle = () => {
 export const SendIcon = ({ className }: { className?: string }) => {
   return (
     <img
-      src="/app/api/chat/950079.png"
+      src="/app/950079.png"
       alt="Send Icon"
       className={className}
       width={16}
@@ -47,7 +47,7 @@ export const SendIcon = ({ className }: { className?: string }) => {
 export const UserIcon = () => {
   return (
     <img
-      src="/app/api/chat/950079.png"
+      src="/app/950079.png"
       alt="User Icon"
       width={20}
       height={20}
