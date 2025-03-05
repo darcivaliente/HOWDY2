@@ -59,7 +59,7 @@ export default function Chat() {
                   <UserIcon />
                 ) : (
                   <Image
-                    src="cowgirl.png"
+                    src=".\cowgirl.png"
                     alt="HOWDY"
                     width={36}
                     height={36}
