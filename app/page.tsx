@@ -185,7 +185,7 @@ export default function Chat() {
           >
             OpenAI GPT-3.5-turbo, as part of a course taught by
           </a>{" "}
-          Darci Valiente.{" "}
+          Halim Madi.{" "}
           <a
             href="https://linkin.bio/yallahalim/"
             target="_blank"
