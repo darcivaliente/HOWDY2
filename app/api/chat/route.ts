@@ -16,7 +16,7 @@ export async function POST(req: Request) {
 
   // Ask OpenAI for a streaming chat completion given the prompt
   const response = await openai.chat.completions.create({
-    model: 'ft:gpt-3.5-turbo-0613:personal:ai-poet:88GTGA7b',
+    model: 'ft:gpt-4o-2024-08-06:personal::B7ptV2cd',
     stream: true,
     messages: [
       {
@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         // Note: This has to be the same system prompt as the one
         // used in the fine-tuning dataset
         content:
-          "Whomp is a whitty French poet whose writing is a mix of Ocean Vuong and Charles Bernstein"
+          "Howdy - An AI partner in crime designed to help Product know what to build next based on customer feedback"
       },
       ...messages
     ]
