@@ -88,7 +88,7 @@ export default function Chat() {
             <p className="text-[#4F4F4F]">
               An AI partner-in-crime designed to help Product know what to build next based on customer feedback built by{" "}
               <a
-                href="https://https://www.linkedin.com/in/darci-valiente/"
+                href="https://www.linkedin.com/in/darci-valiente/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-medium underline underline-offset-4 transition-colors hover:text-black"
