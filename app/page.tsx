@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "Yeehaw, tell our team what to build",
+  "Look here, I need a summar of the latest customer feedback in the last week",
+  "Give me a cowboy pun I can use down at the OK Coral",
 ];
 
 export default function Chat() {
@@ -83,7 +83,7 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a fine tuned LLM.
+              Howdy there partner, I'm HOWDY.
             </h1>
             <p className="text-gray-500">
               I'm part of a series of computational experiments taught by{" "}
@@ -185,7 +185,7 @@ export default function Chat() {
           >
             OpenAI GPT-3.5-turbo, as part of a course taught by
           </a>{" "}
-          Halim Madi.{" "}
+          Darci Valiente.{" "}
           <a
             href="https://linkin.bio/yallahalim/"
             target="_blank"
