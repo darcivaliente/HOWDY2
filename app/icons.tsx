@@ -49,7 +49,7 @@ export const LoadingCircle = () => {
 export const SendIcon = ({ className }: { className?: string }) => {
   return (
     <img
-      src="/app/950079.png"
+      src="/950079.png"
       alt="Send Icon"
       className={className}
       width={16} 
