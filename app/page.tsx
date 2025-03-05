@@ -35,7 +35,7 @@ export default function Chat() {
   const disabled = isLoading || input.length === 0;
 
   return (
-    <main className="flex flex-col items-center justify-between pb-40 bg-yellow-100 text-yellow-800">
+    <main className="flex flex-col items-center justify-between pb-40 bg-[#F4A300] text-[#4F4F4F]">
       <div className="absolute top-5 hidden w-full justify-between px-5 sm:flex">
       </div>
       {messages.length > 0 ? (
@@ -43,8 +43,8 @@ export default function Chat() {
           <div
             key={i}
             className={clsx(
-              "flex w-full items-center justify-center border-b border-yellow-200 py-8",
-              message.role === "user" ? "bg-yellow-50" : "bg-yellow-200",
+              "flex w-full items-center justify-center border-b border-[#E57C24] py-8",
+              message.role === "user" ? "bg-[#F1C27D]" : "bg-[#F8D59A]",
             )}
           >
             <div className="flex w-full max-w-screen-md items-start space-x-4 px-5 sm:px-0">
@@ -73,8 +73,8 @@ export default function Chat() {
           </div>
         ))
       ) : (
-        <div className="border-yellow-200 sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
-          <div className="flex flex-col space-y-4 p-7 sm:p-10 bg-yellow-50 text-yellow-900">
+        <div className="border-[#E57C24] sm:mx-0 mx-5 mt-20 max-w-screen-md rounded-md border sm:w-full">
+          <div className="flex flex-col space-y-4 p-7 sm:p-10 bg-[#F1C27D] text-[#4F4F4F]">
             <Image
               src="/950079.png"
               alt="sample-image"
@@ -82,10 +82,10 @@ export default function Chat() {
               height={40}
               className="h-20 w-20"
             />
-            <h1 className="text-lg font-semibold text-black">
+            <h1 className="text-lg font-family: 'Rock Salt', cursive; text-[#B7410E]">
               Howdy there partner, I'm HOWDY.
             </h1>
-            <p className="text-yellow-700">
+            <p className="text-[#4F4F4F]">
               An AI partner in crime designed to help Product know what to build next based on customer feedback built by{" "}
               <a
                 href="https://linkin.bio/yallahalim/"
@@ -105,11 +105,11 @@ export default function Chat() {
               </a>
             </p>
           </div>
-          <div className="flex flex-col space-y-4 border-t border-yellow-200 bg-yellow-50 p-7 sm:p-10">
+          <div className="flex flex-col space-y-4 border-t border-[#E57C24] bg-[#F1C27D] p-7 sm:p-10">
             {examples.map((example, i) => (
               <button
                 key={i}
-                className="rounded-md border border-yellow-200 bg-white px-5 py-3 text-left text-sm text-yellow-500 transition-all duration-75 hover:border-yellow-600 hover:text-yellow-700 active:bg-yellow-200"
+                className="rounded-md border border-[#E57C24] bg-white px-5 py-3 text-left text-sm text-[#4F4F4F] transition-all duration-75 hover:border-[#F4A300] hover:text-[#F4A300] active:bg-[#F8D59A]"
                 onClick={() => {
                   setInput(example);
                   inputRef.current?.focus();
@@ -121,11 +121,11 @@ export default function Chat() {
           </div>
         </div>
       )}
-      <div className="fixed bottom-0 flex w-full flex-col items-center space-y-3 bg-gradient-to-b from-transparent via-yellow-200 to-yellow-100 p-5 pb-3 sm:px-0">
+      <div className="fixed bottom-0 flex w-full flex-col items-center space-y-3 bg-gradient-to-b from-transparent via-[#F8D59A] to-[#F1C27D] p-5 pb-3 sm:px-0">
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="relative w-full max-w-screen-md rounded-xl border border-yellow-200 bg-white px-4 pb-2 pt-3 shadow-lg sm:pb-3 sm:pt-4"
+          className="relative w-full max-w-screen-md rounded-xl border border-[#E57C24] bg-white px-4 pb-2 pt-3 shadow-lg sm:pb-3 sm:pt-4"
         >
           <Textarea
             ref={inputRef}
@@ -150,7 +150,7 @@ export default function Chat() {
               "absolute inset-y-0 right-3 my-auto flex h-8 w-8 items-center justify-center rounded-md transition-all",
               disabled
                 ? "cursor-not-allowed bg-white"
-                : "bg-yellow-500 hover:bg-yellow-600",
+                : "bg-[#F4A300] hover:bg-[#E57C24]",
             )}
             disabled={disabled}
           >
@@ -200,3 +200,4 @@ export default function Chat() {
     </main>
   );
 }
+
