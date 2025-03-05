@@ -82,7 +82,7 @@ export default function Chat() {
               height={40}
               className="h-20 w-20"
             />
-            <h1 className="text-lg font-family: 'Rock Salt', cursive; text-[#B7410E]">
+            <h1 className="text-lg font-'Trade Winds', cursive; text-[#B7410E]">
               Howdy there partner, I'm HOWDY.
             </h1>
             <p className="text-[#4F4F4F]">
