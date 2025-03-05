@@ -16,7 +16,7 @@ import Image from "next/image";
 const examples = [
   "Yeehaw, tell our Wild West Product team what to build",
   "Saddle up, I need a summary of the latest customer feedback in the last week",
-  "Lasso me up cowboy pun I can use down at the OK Coral",
+  "Lasso me up a cowboy pun I can use down at the O.K. Corral",
 ];
 
 export default function Chat() {
