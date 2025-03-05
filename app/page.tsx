@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Yeehaw, tell our team what to build",
-  "Look here, I need a summar of the latest customer feedback in the last week",
-  "Give me a cowboy pun I can use down at the OK Coral",
+  "Yeehaw, tell our Wild West Product team what to build",
+  "Saddle up, I need a summary of the latest customer feedback in the last week",
+  "Lasso me up cowboy pun I can use down at the OK Coral",
 ];
 
 export default function Chat() {
