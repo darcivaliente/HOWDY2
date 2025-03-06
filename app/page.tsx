@@ -86,7 +86,7 @@ export default function Chat() {
               Howdy there partner, I'm HOWDY.
             </h1>
             <p className="text-[#4F4F4F]">
-              An AI partner-in-crime designed to help Product know what to build next based on customer feedback built by{" "}
+              An AI partner-in-crime designed to help Product know what to explore next based on customer feedback trends built by{" "}
               <a
                 href="https://www.linkedin.com/in/darci-valiente/"
                 target="_blank"
