@@ -83,10 +83,10 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-'Trade Winds', cursive; text-[#B7410E]">
-              Well, howdy, partner! The name’s HOWDY, reckon we’ll get along just fine!.
+              Well, hey there, partner! The name’s HOWDY, reckon we’ll get along just fine!
             </h1>
             <p className="text-[#4F4F4F]">
-              An AI partner-in-crime designed to help Product know what to explore next based on customer feedback trends built by{" "}
+              I'm an AI partner-in-crime designed to help Product know what to explore next based on customer feedback trends built by{" "}
               <a
                 href="https://www.linkedin.com/in/darci-valiente/"
                 target="_blank"
